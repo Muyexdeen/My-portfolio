@@ -1,0 +1,69 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+nav{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+@media screen and (max-width:700px){
+    nav ul li{
+       width: 60%;
+       }
+    }
+    @media screen and (max-width: 300px){
+        nav ul{
+           width: 4%;
+           }
+        }
+ul{
+    margin: 2%;
+    padding: 2%;
+    flex: 1;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    padding: 5px;
+}
+li a{
+    display: inline-block;
+    text-decoration: none; 
+}
+.az-1{
+    height: 60px;
+    width: 250px;
+}
+.az-2{
+    height: 70px;
+}
+img{
+    margin-top: 3%;
+}
+.container{
+    background-color: rgb(50, 156, 255);
+    margin-left: 2%;
+    margin-right: 2%;
+    }
+.bac{
+    background-image: url(shek.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+.text-box{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 35%;
+    text-shadow: 2px 1px black;
+    font-size: 20px;
+}
